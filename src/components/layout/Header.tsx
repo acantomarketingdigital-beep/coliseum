@@ -11,7 +11,7 @@ export function Header() {
       <div className="flex items-center gap-2">
         <Trophy className="w-5 h-5 text-yellow-400" />
         <span className="text-white font-bold text-lg tracking-tight">
-          Arena<span className="text-yellow-400">Ops</span>
+          Coli<span className="text-yellow-400">seum</span>
         </span>
       </div>
 

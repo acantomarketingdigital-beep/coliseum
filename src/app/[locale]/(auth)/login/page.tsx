@@ -81,7 +81,7 @@ export default function LoginPage() {
           <Trophy className="w-7 h-7 text-black" />
         </div>
         <h1 className="text-2xl font-bold text-white tracking-tight">
-          Arena<span className="text-yellow-400">Ops</span>
+          Coli<span className="text-yellow-400">seum</span>
         </h1>
         <p className="text-zinc-500 text-sm mt-1">Gestão de campeonatos esportivos</p>
       </div>

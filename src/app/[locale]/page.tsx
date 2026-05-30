@@ -37,7 +37,7 @@ export default function HomePage() {
         </Badge>
 
         <h1 className="font-display text-6xl md:text-8xl text-white uppercase tracking-tight leading-none mb-4">
-          Arena<span className="text-yellow-400">Ops</span>
+          Coli<span className="text-yellow-400">seum</span>
         </h1>
 
         <p className="text-zinc-400 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
@@ -83,7 +83,7 @@ export default function HomePage() {
 
           <div className="mt-6 pt-4 border-t border-zinc-800 flex items-center justify-center gap-2 text-zinc-500 text-xs">
             <Shield className="w-3.5 h-3.5" />
-            <span>Futsal · 1º Tempo · Arena Ops</span>
+            <span>Futsal · 1º Tempo · Coliseum</span>
           </div>
         </div>
       </section>

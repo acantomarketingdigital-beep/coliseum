@@ -222,7 +222,7 @@ export default function CadastroPage() {
           <Trophy className="w-6 h-6 text-black" />
         </div>
         <h1 className="text-xl font-bold text-white tracking-tight">
-          Arena<span className="text-yellow-400">Ops</span>
+          Coli<span className="text-yellow-400">seum</span>
         </h1>
         <p className="text-zinc-500 text-sm mt-0.5">Criar minha conta</p>
       </div>
