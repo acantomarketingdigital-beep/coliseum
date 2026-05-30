@@ -1,0 +1,82 @@
+{
+  "match": {
+    "loading": "Loading match…",
+    "notFound": "Match not found.",
+    "teamsNotFound": "Teams not found.",
+    "backToDashboard": "Back to dashboard",
+    "back": "Back",
+    "setEnded": "Set Over",
+    "wonSet": "won the set!",
+    "sets": "Sets",
+    "startSet": "Start Set {n}",
+    "matchEnded": "Match Over",
+    "wonMatch": "won the match!",
+    "selectMvp": "Select",
+    "mvpTitle": "⚡ MVP",
+    "mvpCaption": "Reception will photograph the selected athlete",
+    "selectAthlete": "Select athlete…",
+    "endMatch": "End Match",
+    "ending": "Ending…",
+    "endWithoutMvp": "End without selecting MVP",
+    "serve": "SERVE",
+    "point": "+ POINT",
+    "substitution": "Substitution",
+    "undoTooltip": "Undo last point",
+    "sanctionTooltip": "Record sanction",
+    "tiebreak": "TIE-BREAK",
+    "set": "SET",
+    "offline": "OFFLINE"
+  },
+  "portal": {
+    "championship": "Championship",
+    "live": "LIVE",
+    "notFound": "Championship not found.",
+    "tabs": {
+      "standings": "Standings",
+      "matches": "Matches",
+      "highlights": "Highlights"
+    },
+    "standings": {
+      "team": "Team",
+      "played": "GP",
+      "wins": "W",
+      "losses": "L",
+      "sets": "Sets",
+      "pts": "PTS",
+      "legend": "GP=games · W=wins · L=losses · Sets=for/against · Pts: 3×0/1=3pts, 3×2=2pts/1pt",
+      "noMatches": "Standings will appear after the first completed match."
+    },
+    "matches": {
+      "live": "Live",
+      "upcoming": "Upcoming",
+      "finished": "Finished",
+      "noMatches": "No matches recorded.",
+      "round": "Round {n}"
+    },
+    "highlights": {
+      "mvpBadge": "MVP",
+      "share": "Share Highlight",
+      "copied": "Link copied!",
+      "shareTitle": "Match Highlight!",
+      "shareText": "{name} was named MVP! Check the score and championship standings:",
+      "empty": "MVP photos will appear here after matches are completed."
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "championships": "Championships",
+    "matches": "Matches",
+    "teams": "Teams",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Unknown error.",
+    "back": "Back"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  }
+}

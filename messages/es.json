@@ -1,0 +1,82 @@
+{
+  "match": {
+    "loading": "Cargando partido…",
+    "notFound": "Partido no encontrado.",
+    "teamsNotFound": "Equipos no encontrados.",
+    "backToDashboard": "Volver al panel",
+    "back": "Volver",
+    "setEnded": "Set Terminado",
+    "wonSet": "ganó el set!",
+    "sets": "Sets",
+    "startSet": "Iniciar Set {n}",
+    "matchEnded": "Partido Terminado",
+    "wonMatch": "ganó el partido!",
+    "selectMvp": "Seleccionar",
+    "mvpTitle": "⚡ Jugador Destacado",
+    "mvpCaption": "Recepción fotografiará al atleta seleccionado",
+    "selectAthlete": "Seleccionar atleta…",
+    "endMatch": "Finalizar Acta",
+    "ending": "Finalizando…",
+    "endWithoutMvp": "Finalizar sin seleccionar destacado",
+    "serve": "SAQUE",
+    "point": "+ PUNTO",
+    "substitution": "Sustitución",
+    "undoTooltip": "Deshacer último punto",
+    "sanctionTooltip": "Registrar sanción",
+    "tiebreak": "TIE-BREAK",
+    "set": "SET",
+    "offline": "OFFLINE"
+  },
+  "portal": {
+    "championship": "Campeonato",
+    "live": "EN VIVO",
+    "notFound": "Campeonato no encontrado.",
+    "tabs": {
+      "standings": "Clasificación",
+      "matches": "Partidos",
+      "highlights": "Destacados"
+    },
+    "standings": {
+      "team": "Equipo",
+      "played": "PJ",
+      "wins": "V",
+      "losses": "D",
+      "sets": "Sets",
+      "pts": "PTS",
+      "legend": "PJ=partidos · V=victorias · D=derrotas · Sets=pro/con · Pts: 3×0/1=3pts, 3×2=2pts/1pt",
+      "noMatches": "La clasificación se mostrará tras el primer partido finalizado."
+    },
+    "matches": {
+      "live": "En Vivo",
+      "upcoming": "Próximos",
+      "finished": "Finalizados",
+      "noMatches": "Ningún partido registrado.",
+      "round": "Ronda {n}"
+    },
+    "highlights": {
+      "mvpBadge": "Jugador Destacado",
+      "share": "Compartir Destacado",
+      "copied": "¡Enlace copiado!",
+      "shareTitle": "¡Jugador Destacado!",
+      "shareText": "{name} fue elegido Jugador Destacado. ¡Mira el marcador y la tabla:",
+      "empty": "Las fotos de los jugadores destacados aparecerán aquí tras finalizar los partidos."
+    }
+  },
+  "nav": {
+    "dashboard": "Panel",
+    "championships": "Campeonatos",
+    "matches": "Partidos",
+    "teams": "Equipos",
+    "settings": "Configuración"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "error": "Error desconocido.",
+    "back": "Volver"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  }
+}

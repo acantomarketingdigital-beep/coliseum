@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
+@theme {
+  /* Arena Ops Design System — Offline-First Sports B2B SaaS */
+
+  /* Brand colors */
+  --color-arena-black: #09090b;
+  --color-arena-zinc: #18181b;
+  --color-arena-zinc-800: #27272a;
+  --color-arena-zinc-700: #3f3f46;
+  --color-arena-yellow: #facc15;
+  --color-arena-yellow-500: #eab308;
+  --color-arena-yellow-300: #fde047;
+  --color-arena-neon: #fbbf24;
+
+  /* Typography */
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Impact", "Arial Black", "Helvetica Neue", sans-serif;
+
+  /* Semantic aliases */
+  --color-background: var(--color-arena-black);
+  --color-surface: var(--color-arena-zinc);
+  --color-border: var(--color-arena-zinc-800);
+  --color-accent: var(--color-arena-yellow);
+  --color-foreground: #fafafa;
+  --color-muted: #a1a1aa;
+}
+
+/* Base reset to enforce dark-first */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-color: #09090b;
+  color: #fafafa;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scoreboard / display numbers — Impact style */
+.font-display {
+  font-family: "Impact", "Arial Black", "Helvetica Neue", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Touch-optimized tap target minimum */
+.btn-touch {
+  min-height: 3rem;
+  min-width: 3rem;
+}
+
+/* Pulse animation for live indicator */
+@keyframes arena-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-arena-pulse {
+  animation: arena-pulse 1.5s ease-in-out infinite;
+}
+
+/* Glow effect for active scoreboards */
+.glow-yellow {
+  box-shadow: 0 0 20px 2px rgba(250, 204, 21, 0.25);
+}
+
+/* Step wizard — slide-in entre etapas */
+@keyframes stepSlideIn {
+  from { opacity: 0; transform: translateX(16px); }
+  to   { opacity: 1; transform: translateX(0);    }
+}
+.step-slide-in {
+  animation: stepSlideIn 0.22s ease-out forwards;
+}
+
+/* Shake animation — PIN error feedback */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  15%       { transform: translateX(-6px); }
+  30%       { transform: translateX(6px); }
+  45%       { transform: translateX(-5px); }
+  60%       { transform: translateX(5px); }
+  75%       { transform: translateX(-3px); }
+  90%       { transform: translateX(3px); }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #facc15;
 }

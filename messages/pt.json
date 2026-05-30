@@ -1,0 +1,82 @@
+{
+  "match": {
+    "loading": "Carregando partida…",
+    "notFound": "Partida não encontrada.",
+    "teamsNotFound": "Times não encontrados.",
+    "backToDashboard": "Voltar ao painel",
+    "back": "Voltar",
+    "setEnded": "Set Encerrado",
+    "wonSet": "venceu o set!",
+    "sets": "Sets",
+    "startSet": "Iniciar {n}° Set",
+    "matchEnded": "Partida Encerrada",
+    "wonMatch": "venceu a partida!",
+    "selectMvp": "Selecionar",
+    "mvpTitle": "⚡ Atleta Destaque",
+    "mvpCaption": "A recepção fotografará o atleta selecionado",
+    "selectAthlete": "Selecionar atleta…",
+    "endMatch": "Encerrar Súmula",
+    "ending": "Encerrando…",
+    "endWithoutMvp": "Encerrar sem selecionar destaque",
+    "serve": "SAQUE",
+    "point": "+ PONTO",
+    "substitution": "Substituição",
+    "undoTooltip": "Desfazer último ponto",
+    "sanctionTooltip": "Registrar sanção",
+    "tiebreak": "TIE-BREAK",
+    "set": "SET",
+    "offline": "OFFLINE"
+  },
+  "portal": {
+    "championship": "Campeonato",
+    "live": "AO VIVO",
+    "notFound": "Campeonato não encontrado.",
+    "tabs": {
+      "standings": "Classificação",
+      "matches": "Jogos",
+      "highlights": "Destaques"
+    },
+    "standings": {
+      "team": "Time",
+      "played": "PJ",
+      "wins": "V",
+      "losses": "D",
+      "sets": "Sets",
+      "pts": "PTS",
+      "legend": "PJ=jogos · V=vitórias · D=derrotas · Sets=pro/con · Pts: 3×0/1=3pts, 3×2=2pts/1pt",
+      "noMatches": "A classificação será exibida após o primeiro jogo encerrado."
+    },
+    "matches": {
+      "live": "Ao Vivo",
+      "upcoming": "Próximos",
+      "finished": "Encerrados",
+      "noMatches": "Nenhum jogo registrado.",
+      "round": "Rodada {n}"
+    },
+    "highlights": {
+      "mvpBadge": "Atleta Destaque",
+      "share": "Compartilhar Destaque",
+      "copied": "Link copiado!",
+      "shareTitle": "Destaque da Partida!",
+      "shareText": "{name} foi eleito o Atleta Destaque! Confira o placar e a tabela do campeonato:",
+      "empty": "As fotos dos atletas destaque aparecerão aqui após o encerramento das partidas."
+    }
+  },
+  "nav": {
+    "dashboard": "Painel",
+    "championships": "Campeonatos",
+    "matches": "Partidas",
+    "teams": "Times",
+    "settings": "Configurações"
+  },
+  "common": {
+    "loading": "Carregando…",
+    "error": "Erro desconhecido.",
+    "back": "Voltar"
+  },
+  "language": {
+    "pt": "Português",
+    "en": "English",
+    "es": "Español"
+  }
+}
