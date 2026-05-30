@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import { Trophy, Eye, EyeOff, Loader2 } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import { PinInput } from "@/components/ui/PinInput";
@@ -11,6 +11,8 @@ type Tab = "admin" | "referee";
 
 export default function LoginPage() {
   const router = useRouter();
+  const params = useParams();
+  const locale = (params?.locale as string) ?? "pt";
 
   const [tab, setTab]             = useState<Tab>("admin");
   const [email, setEmail]         = useState("");
@@ -36,7 +38,7 @@ export default function LoginPage() {
       return;
     }
 
-    router.push("/dashboard");
+    router.push(`/${locale}/dashboard`);
   }
 
   // ── Login do Árbitro (email + PIN como senha) ───────────────────────────────
@@ -68,7 +70,7 @@ export default function LoginPage() {
         return;
       }
 
-      router.push("/dashboard");
+      router.push(`/${locale}/dashboard`);
     },
     [email, router]
   );

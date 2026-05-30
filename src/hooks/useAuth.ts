@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase";
 import type { Tables } from "@/types/database";
@@ -13,6 +13,8 @@ export function useAuth() {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
+  const params = useParams();
+  const locale = (params?.locale as string) ?? "pt";
 
   useEffect(() => {
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
@@ -39,7 +41,7 @@ export function useAuth() {
 
   async function signOut() {
     await supabase.auth.signOut();
-    router.push("/login");
+    router.push(`/${locale}/login`);
   }
 
   return { user, profile, loading, signOut };
